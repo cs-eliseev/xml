@@ -1,0 +1,21 @@
+{
+    "name": "cs-eliseev/otus-xml",
+    "description": "Queue redirect domain",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eliseev Alexey",
+            "email": "a.k.eliseev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "generator\\": "src"
+        }
+    }
+}
